@@ -1,0 +1,227 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 30px;
+    width: fr;
+}
+
+header > a > img {
+    width: 200px;
+}
+
+header > nav > ul > li {
+    display: inline-block;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #025157;
+}
+
+ header > div {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #025157;
+}
+
+header > div > button {
+    padding: 15px;
+    margin-left: 10px;
+    color: white;
+    background-color: #025157;
+    border-radius: 8px;
+    border: transparent;
+}
+
+.section {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 40px;
+    width: 100%;
+    height: 10%;
+}
+
+section > h1 {
+    font-size: 70px;
+    font-weight: 1000;
+    line-height: 0.8;
+    color: #025157;
+    width: 85%;
+    margin: 0;
+
+}
+
+section > p {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #46484c;
+    padding-bottom: 5%;
+}
+
+.prueba {
+    display: inline-block;
+    flex-direction: row;
+}
+
+section > div > button {
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: rgb(103, 172, 34);
+    color: white;
+    padding: 15px;
+    border: transparent;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+section > div > p {
+    width: 38%;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding-top: 3%;
+    color: #8b8b8bcc;
+    
+}
+
+.multimedia {
+    grid-column: 3;
+    grid-row: 1;
+    width: 100%;
+}
+
+aside > video > source{
+    width: fr;
+    border:transparent;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 15% 32% 32% 15%;
+    grid-template-rows: 5% 10% 10% 60%;
+    gap: 10%;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.logos {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    width: fr;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+section > h3 {
+    width: fr;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    color: #8b8b8bcc;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-direction: row;
+    padding: 10px;
+    margin-right: 10%;
+    margin-left:  10%;   
+    width: 80%;
+    height: 40%;
+}
+
+
+.features {
+    grid-row: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    width: fr;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    margin: 40px;
+}
+
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-around;
+    width: fr;
+    padding: 10px;
+    margin-right: 10%;
+    margin-left:  10%; 
+
+}
+
+div > h1 {
+    text-align: center;
+    font-size: 70px;
+    color: #025157;
+    margin: 0%;
+}
+
+div > h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #46484c;
+    font-weight: 100;
+    padding-bottom: 20px;
+
+}
+
+.column1 {
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.column2 {
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.column3 {
+    padding: 20px;
+    align-items: flex-start;
+}
+
+div > div > a > img {
+    width: 450px;
+    color: #46484c;
+    border-radius: 8px;
+    padding-bottom: 15px;
+}
+
+div > div > a > h5 {
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #46484c;
+    text-align: center;
+    font-weight: 100;
+
+}
+
+div > div > a > p {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #46484c;
+    text-align: center;
+}
